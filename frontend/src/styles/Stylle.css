@@ -1,0 +1,140 @@
+button {
+    width: 100%;
+    color: rgb(182, 170, 170);
+    background-color: black;
+}
+
+a {
+    text-align: none;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(183, 164, 111);
+}
+
+
+.switch-mode {
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(233, 228, 122);
+    color: white;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+
+}
+
+/* Stylle.css */
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Center the content */
+    text-align: left;
+    /* Align all list items to the left */
+}
+
+li {
+    display: inline-block;
+    /* Display list items in a line */
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    text-align: left;
+    /* Align the last list item to the left */
+}
+
+.active {
+    background-color: #9cad39;
+}
+
+.active {
+    background-color: #9cad39;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup img {
+    width: 100%;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
